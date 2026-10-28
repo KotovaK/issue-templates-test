@@ -44,6 +44,13 @@ body:
         1. See error...
     validations:
       required: true
+  - type: upload
+    id: screenshots
+    attributes:
+      label: Upload screenshots
+      description: If applicable, add screenshots to help explain your problem.
+    validations:
+      required: false
   - type: textarea
     id: tools
     attributes:
