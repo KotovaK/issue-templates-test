@@ -2,7 +2,6 @@ name: Feature request
 description: Suggest an idea for this project.
 title: "[Feature request]: "
 labels: ["enhancement"]
-type: enhancement
 body:
   - type: markdown
     attributes:
@@ -28,13 +27,6 @@ body:
       description: A clear and concise description of what you want to happen.
     validations:
       required: true
-  - type: upload
-    id: screenshots
-    attributes:
-      label: Upload screenshots
-      description: If applicable, add screenshots to help explain your problem.
-    validations:
-      required: false
   - type: input
     id: contact
     attributes:
